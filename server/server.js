@@ -171,7 +171,7 @@ app.post("/due-invoices", async (req, res) => {
 });
 
 app.get("/", async(req, res)=>{
-  res.sendStatus(200).json("Working")
+  res.sendStatus(200);
 });
 
 const PORT = process.env.PORT || 5000;
