@@ -170,5 +170,9 @@ app.post("/due-invoices", async (req, res) => {
   }
 });
 
+app.get("/", async(req, res)=>{
+  res.sendStatus(200).json("Working")
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
