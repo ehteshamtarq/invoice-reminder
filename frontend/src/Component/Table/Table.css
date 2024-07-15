@@ -1,0 +1,23 @@
+.status{
+    color:white;
+    display:flex;
+    padding: 5px;
+    align-content: center;
+    border-radius: 20px;
+    align-items:center;
+    justify-content: center;
+}
+
+.detail{
+    padding: 10px;
+    background-color: black;
+    color:white;
+    border:none;
+    border-radius: 20px;
+    transition: 0.3s ease-in
+}
+
+.detail:hover{
+    background-color: #262626;
+    cursor: pointer;
+}

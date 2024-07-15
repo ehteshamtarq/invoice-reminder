@@ -1,0 +1,10 @@
+.loading{
+    top: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+CircularProgress{
+    align-self:center;
+}

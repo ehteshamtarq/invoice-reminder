@@ -1,0 +1,27 @@
+.create{
+    padding: 10px 20px;
+    background-color:#1976D2;
+    border-radius: 30px;
+    color: white;
+    margin: 50px;
+    border: none;
+    font-size: 24px;
+    transition: 0.3s ease-in;
+
+}
+
+.create:hover{
+    cursor:pointer;
+    background-color: #318ce6;
+}
+
+.error{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.error p{
+    font-size: 24px;
+    font-weight: 500;
+}

@@ -1,0 +1,12 @@
+.viewInvoice{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.viewInvoice p{
+    font-size: 24px;
+    font-weight: 500;
+}
