@@ -31,7 +31,7 @@ const Mainpage = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/due-invoices",
+        "https://invoice-reminder.onrender.com/due-invoices",
         userinfo
       );
       if (response.status === 200) {
@@ -55,7 +55,7 @@ const Mainpage = () => {
     // Function to fetch invoices from backend
     const fetchInvoices = async () => {
       try {
-        const response = await axios.post("http://localhost:5000/invoices", {
+        const response = await axios.post("https://invoice-reminder.onrender.com/invoices", {
           _id: user.email,
         }); // Replace with actual _id
         const { invoices } = response.data;

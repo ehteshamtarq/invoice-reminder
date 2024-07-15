@@ -54,7 +54,7 @@ const CreateInvoice = () => {
     };
 
      try {
-      const response = await axios.post('http://localhost:5000/create-invoice', userinfo);
+      const response = await axios.post('https://invoice-reminder.onrender.com/create-invoice', userinfo);
       if (response.status === 200) {
         enqueueSnackbar('Invoice sent successfully.', {variant: "success"});
       } else {

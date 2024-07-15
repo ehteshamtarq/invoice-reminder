@@ -49,7 +49,7 @@ const ViewInvoice = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/pay-invoice",
+        "https://invoice-reminder.onrender.com/pay-invoice",
         userinfo
       );
       if (response.status === 200) {
