@@ -4,23 +4,3 @@
 #### Create your mongodb atlas 
 #### Create a new application in Auth0 By Okta 
 
-## Installation
-
-Server
-
-```bash
-cd server
-```
-```bash
-npm install
-```
-```bash
-node server.js
-```
-Frontend
-```bash
-npm install
-```
-```bash
-npm start
-```
