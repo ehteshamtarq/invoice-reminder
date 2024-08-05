@@ -1,4 +1,7 @@
 # invoice-reminder
+## Zapier integration in MERN project
+# Create your zapier hook
+# Create your mongodb atlas
 
 ## Installation
 
