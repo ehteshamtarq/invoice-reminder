@@ -2,10 +2,10 @@
 
 ## Installation
 
-Backend
+Server
 
 ```bash
-cd backend
+cd server
 ```
 ```bash
 npm install
